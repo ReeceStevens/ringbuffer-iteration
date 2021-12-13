@@ -1,0 +1,18 @@
+[package]
+name = "ringbuffer-iteration"
+authors = ["Reece Stevens <reecestevens24@gmail.com>"]
+categories = [
+    "embedded",
+    "no-std",
+]
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libm = "0.2"
+
+[dependencies.num-traits]
+version = "0.2"
+default-features = false
